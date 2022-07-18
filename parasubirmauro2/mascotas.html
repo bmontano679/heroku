@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mauro Dc</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+<body class="cuerpo">
+    <nav class="navbar ">
+        <div class="container-fluid">
+          <a href="index.html"><img src="./img/PicsArt_04-28-04.42.17.jpg" class="fotologo"></a>
+          <h1 class="tituloh1"><a class="navbar-brand" href="index.html">MauroDC</a></h1>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">  <a class="navbar-brand" href="index.html">MauroDC</a></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="bio.html">Bio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="retratos.html">Retratos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="digital.html">Dibujos digitales</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="mascotas.html">Mascotas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pedidos1.html">Pedidos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./demo1/src/main/resources/static/create.html">Contacto</a>
+                  </li>
+                
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+</div>
+
+  <h1 class="h1pedidos">Mascotas</h1>
+  <div class="mainpedidos">
+  <div id ="appmascotas">
+    <div class="cardpedidos" v-for="curso in cursos">
+    <img class="imgpedidos" :src="curso.imagen" :alt="curso.name">
+    <div class="containerpedidos">
+    <h4><b>{{curso.name}}</b></h4>
+    <p><b>Tamaño: </b>{{curso.tamaño}} </p>
+    <span><b>Precio: </b>{{curso.precio}}USD</span>
+    </div>
+    </div>
+    </div>
+  </div>
+  </div>
+  
+ 
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="./mainmascotas.js"></script>
+
+
+<footer class="pie">
+    <nav class="navegadorpie">
+        <ul class="navpie">
+          <li><p>Encontrame en </p></li>
+          <li> <a href="https://instagram.com/maurooo.dacruz"> <img src="./assent/assent.svg"></a></li>
+             <li> <a href="./demo1/src/main/resources/static/create.html">Contáctanos</a></li>
+             <p>© 2022 Mauro Da Cruz - ® Todos los derechos reservados.</p>
+        
+           </ul>
+           </nav>
+  
+  </footer>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+  
+  </html>
