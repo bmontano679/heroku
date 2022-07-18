@@ -1,0 +1,248 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Special Elite', cursive;
+
+}
+
+.cuerpo #app  {display: flex;
+    flex-direction: column;
+    background-color:  rgb(255,209,7)
+}
+
+.navbar { background-color:  rgb(255,209,7) ;
+
+}
+
+#offcanvasNavbar{ background-color: rgb(255,209,7)  }
+.nav-item:hover{background-color: grey;}
+
+.mainprin{
+    padding: 15px;
+    
+  
+}
+ 
+
+    .fotologo {
+        cursor: pointer;
+    height: 70px;
+    width: 100px;}
+    
+    .fotologo {
+        width: 100%;
+        max-width: 100px;
+        max-height: 100px;
+    height: 100%;}
+/*main1*/
+.mainprin {display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(250, 239, 93);
+}
+
+.main1 {
+    cursor: pointer;
+    width: 340.37px;
+height: 240.62px;
+overflow: hidden;
+margin: 10px;
+
+
+}
+
+.main1 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+/*.main1 p { 
+    font-size: 2rem;
+    color: dimgray;
+    position: absolute;
+    top: 24%;
+    left: 20%;
+
+}*/
+.main2 {
+    cursor: pointer;
+    width: 340.37px;
+height: 240.62px;
+overflow: hidden;
+margin: 10px;
+
+/*w 170.18 h .120.31 *** 240.62h 340.37w*/
+
+}
+
+.main2 img {
+    border-radius: 25px;
+    width: 100%;
+    height: 100%;
+}
+/*.main2 p { 
+    font-size: 2rem;
+    color: black;
+    position: absolute;
+    top: 24%;
+    left: 67%;
+
+}*/
+
+/** MAIN 2"*/
+
+.mainprin2 {display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(250, 239, 93);
+  }
+.main3{
+    cursor: pointer;
+    width: 340.37px;
+height: 240.62px;
+overflow: hidden;
+margin: 10px;
+
+
+}
+
+.main3 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.main4{
+    cursor: pointer;
+    width: 340.37px;
+height: 240.62px;
+overflow: hidden;
+margin: 10px;
+
+
+}
+
+.main4 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+/***pie*/
+
+.pie {
+  
+    background-color:rgb(255,209,7);
+  display: flex;
+  flex-flow: row wrap;
+  
+justify-content: center;}
+  
+  .navpie a { color: black;}
+  .navegadorpie {
+       list-style: none;
+       padding: 30px ;
+      
+      }
+      
+  .navegadorpie li { display: inline-block;
+    padding: 0px 30px ;}
+      
+      .navegadorpie li a {transition:all 0.3s ease 0s ;
+          
+      }
+
+/*formulario*/
+.contenedorformulario {
+    padding: 15px;
+    background-color: rgb(250, 239, 93);
+width: 100%;
+
+
+display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-gap: 50px;
+margin-top: 90px;
+}
+
+.contenedorformulario a i { color: black;
+    margin-right: 10px;
+
+
+
+}
+
+
+.contenedorformulario form .campo ,textarea {
+width: 100%;
+padding: 15px 10px;
+font-size: 15px;
+border: 1px solid;
+margin-bottom: 5px;
+
+}
+
+
+.contenedorformulario .btn-enviar { 
+
+padding: 10px;
+background-color: grey;
+border-radius: 3px;
+cursor: pointer;
+transition: all 300ms ease;
+}
+.contenedorformulario .btn-enviar:hover { background-color: cadetblue;}
+
+/*
+border: 1px solid;
+padding: 10px;
+background-color: rgb(250, 239, 93);
+width: 100%;
+display: flex;
+flex-direction: row wrap;
+}
+.formulario{
+display: inline-block;
+width: 100%;
+padding: 15px 10px ;
+font-size: 15px;
+border: 1px solid;
+
+}*/
+
+/****** pedidos**/
+.cardpedidos {
+    
+    border: 1px solid black;
+    transition: 0.3s;
+    border-radius : 5px;
+    width:  350px;
+    margin: 15px;
+    padding-bottom : 15px;
+    display: inline-block;
+    overflow: hidden;
+    justify-content:space-between;
+    }
+    .imgpedidos {
+    border-radius: 5px 5px 0 0;
+    height: 350px;
+    width: 350px; 
+    overflow: hidden;
+    }
+    .containerpedidos {
+    padding : 15px 16px ;
+    }
+.h1pedidos{  
+  padding-top: 5px ;
+    background-color: rgb(250, 239, 93);
+display: flex;
+margin: 0;
+    justify-content:center;
+}
+.mainpedidos { 
+    background-color: rgb(250, 239, 93);
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+      
+    }
+
+/**********/
